@@ -1,0 +1,42 @@
+{
+  "name": "notation",
+  "version": "0.1.0",
+  "description": "A plain-text notation system for projects, decisions, and risks",
+  "main": "cli-parser.js",
+  "scripts": {
+    "start": "node cli-parser.js",
+    "test": "node test-notation.md",
+    "parse": "node cli-parser.js parse",
+    "slack": "node slack-bot.js"
+  },
+  "keywords": [
+    "notation",
+    "project-management",
+    "decisions",
+    "plain-text",
+    "cli",
+    "slack",
+    "parser"
+  ],
+  "author": "Terrii Gee",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.15.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terriigee04-wq/Notation-public.git"
+  },
+  "bugs": {
+    "url": "https://github.com/terriigee04-wq/Notation-public/issues"
+  },
+  "homepage": "https://github.com/terriigee04-wq/Notation-public#readme"
+}
